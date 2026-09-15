@@ -1,0 +1,48 @@
+name: samy
+description: "تطبيق samy لإدارة تواريخ انتهاء صلاحية المنتجات في البقالات والسوبر ماركت"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # دعم اللغة العربية (RTL)
+  flutter_localizations:
+    sdk: flutter
+
+  # أيقونات iOS
+  cupertino_icons: ^1.0.8
+
+  # قاعدة البيانات المحلية
+  sqflite: ^2.3.3
+  sqflite_common_ffi_web: ^0.4.5
+  path: ^1.9.0
+
+  # قراءة الباركود بالكاميرا
+  mobile_scanner: ^5.2.3
+
+  # الإشعارات المحلية
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+
+  # تنسيق التواريخ بالعربية
+  intl: ^0.20.2
+
+  # إدارة الأذونات (كاميرا وإشعارات)
+  permission_handler: ^11.3.1
+
+  # اختيار الصور من الكاميرا أو المعرض
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
